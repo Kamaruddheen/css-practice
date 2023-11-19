@@ -7,9 +7,6 @@
     <style>
       body {
         display: flex;
-        height: 50vh;
-        width: auto;
-        position: fixed;
       }
 
       .sidebar {
@@ -19,19 +16,20 @@
       }
 
       main {
-        height: 50vh;
         display: flex;
         flex-direction: column;
-        border: 1px solid black;
+        border-right: 1px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
       }
 
-      .col {
+      .row {
         display: flex;
         flex-direction: row;
         width: 304px;
       }
 
-      .box {
+      .col {
         display: flex;
         flex-direction: column;
         height: 50px;
@@ -41,37 +39,41 @@
         border: 1px solid black;
       }
 
-      .box:last-child {
+      .col:last-child {
         margin-right: 20px;
+      }
+
+      .row:last-child {
+        margin-bottom: 20px;
       }
     </style>
   </head>
   <body>
     <aside class="sidebar"></aside>
     <main>
-      <section class="col">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+      <section class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
       </section>
-      <section class="col">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+      <section class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
       </section>
-      <section class="col">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+      <section class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
       </section>
-      <section class="col">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+      <section class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
       </section>
     </main>
   </body>
