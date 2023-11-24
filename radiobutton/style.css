@@ -1,0 +1,27 @@
+:root {
+    font: 1.3em cursive;
+    background-color: darkcyan;
+    color: aliceblue;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(2, 65, 65);
+    border-radius: 1rem;
+    padding: 20px;  
+}
+
+ul {
+    padding-left: 0px;
+    margin-top: 0px;
+}
