@@ -14,7 +14,6 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     background-color: rgb(2, 65, 65);
     border-radius: 1rem;
@@ -24,6 +23,11 @@ body {
 ul {
     padding-left: 0px;
     margin-top: 0px;
+}
+
+ul section {
+    padding: 12px 0px;
+    border-bottom: 1px solid rgb(0, 145, 145);
 }
 
 input[type='radio']:after {
@@ -48,4 +52,14 @@ input[type='radio']:checked:after {
     border-radius: 10px;
     background-color: rgb(0, 216, 216);
     border: 2px solid rgb(0, 145, 145);
+}
+
+ul section:hover {
+    background-color: rgba(0, 145, 145, 0.445);
+    color: aquamarine;
+}
+
+label {
+    padding-left: 10px;
+    cursor: pointer;
 }
