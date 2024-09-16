@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website made for testing out html tags"
+    />
+    <title>Fictional portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>SHUBHAM RAO</h1>
+      <!-- Contact Information -->
+      <div>
+        <span>123 Block Street, New York, NY, 10001</span>
+        <span>|</span>
+        <span>(555) 123-4567</span>
+        <span>|</span>
+        <a href="mailto:shubham.rao@example.com">shubham.rao@example.com</a>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main>
+      <!-- About Me -->
+      <section>
+        <h1>About Me</h1>
+        <p>
+          Hi, I’m Shubham, a passionate software engineer with over 5 years of
+          experience in building scalable web applications. I specialize in
+          full-stack development with a focus on user-friendly interfaces and
+          performance optimization.
+        </p>
+      </section>
+      <!-- Skills -->
+      <section>
+        <h1>Skills</h1>
+        <ul>
+          <li>
+            <strong>Programming Languages: </strong>Python, JavaScript, HTML,
+            CSS
+          </li>
+          <li><strong>Frameworks: </strong>React, Node.js, Django</li>
+          <li><strong>Database: </strong>MySQL, MongoDB</li>
+          <li><strong>Other Skills: </strong>Git, Docker, AWS</li>
+        </ul>
+      </section>
+      <!-- Experience -->
+      <section>
+        <h1>Experience</h1>
+        <!-- Full-Stack Developer -->
+        <div>
+          <h3>Full-Stack Developer</h3>
+          <div>
+            <div>XYZ Corp</div>
+            <i><small>January 2019 - Present</small></i>
+          </div>
+          <ul>
+            <li>
+              Led the development of a customer management system that improved
+              customer retention by 15%.
+            </li>
+            <li>
+              Collaborated with cross-functional teams to design and launch new
+              features in React and Node.js.
+            </li>
+          </ul>
+        </div>
+        <!-- Junior Software Engineer -->
+        <div>
+          <h3>Junior Software Engineer</h3>
+          <div>
+            <div>ABC Tech</div>
+            <i><small>June 2017 - December 2018</small></i>
+          </div>
+          <ul>
+            <li>
+              Led the development of a customer management system that improved
+              customer retention by 15%.
+            </li>
+            <li>
+              Collaborated with cross-functional teams to design and launch new
+              features in React and Node.js.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Education -->
+      <section>
+        <table border="1px">
+          <tr>
+            <th>Institution</th>
+            <th>Degree</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>New York University</td>
+            <td>Bachelor of Science in Computer Science</td>
+            <td>2013 - 2017</td>
+          </tr>
+          <tr>
+            <td>Harvard Business School</td>
+            <td>Online Certification in Product Management</td>
+            <td>2022</td>
+          </tr>
+        </table>
+      </section>
+      <!-- Portfolio -->
+      <section>
+        <h1>Portfolio</h1>
+        <!-- Project 1 -->
+        <div>
+          <h4>
+            <a href="https://project1.example.com/">E-Commerce Platform</a>
+          </h4>
+          <ul>
+            <li>
+              Developed a fully functional e-commerce platform using React and
+              Node.js, which now serves over 500 daily users.
+            </li>
+          </ul>
+        </div>
+        <!-- Project 2 -->
+        <div>
+          <h4>
+            <a href="https://project2.example.com/">Portfolio Website</a>
+          </h4>
+          <ul>
+            <li>
+              Built a personal portfolio website using HTML5 and CSS3 to
+              showcase my skills and projects.
+            </li>
+          </ul>
+        </div>
+        <!-- Project 3 -->
+        <div>
+          <h4>
+            <a href="https://project3.example.com/">Unknown</a>
+          </h4>
+          <ul>
+            <li>
+              Embedded Video Demo:
+              <a href="https://watch.example.com/">Watch Video</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Contact Me -->
+      <section>
+        <form action="#" method="post">
+          <h1>Contact Me</h1>
+          <table>
+            <!-- Name -->
+            <tr>
+              <td><strong>Name </strong></td>
+              <td><input type="text" name="name" id="name" /></td>
+            </tr>
+            <!-- Email -->
+            <tr>
+              <td><strong>Email </strong></td>
+              <td><input type="email" name="email" id="email" /></td>
+            </tr>
+            <!-- Interested in -->
+            <tr>
+              <td><strong>Interested in </strong></td>
+              <td>
+                <input
+                  type="radio"
+                  name="interest"
+                  id="fulltime"
+                  value="Full-time"
+                />
+                <label for="fulltime">Full-time</label>
+                <input
+                  type="radio"
+                  name="interest"
+                  id="parttime"
+                  value="Part-time"
+                />
+                <label for="parttime">Part-time</label>
+                <input
+                  type="radio"
+                  name="interest"
+                  id="freelance"
+                  value="Freelance"
+                />
+                <label for="freelance">Freelance</label>
+              </td>
+            </tr>
+            <!-- Skills Required -->
+            <tr>
+              <td><strong>Skills Required </strong></td>
+              <td>
+                <input
+                  type="checkbox"
+                  name="skills"
+                  id="frontend"
+                  value="Frontend"
+                />
+                <label for="frontend">Frontend</label>
+                <input
+                  type="checkbox"
+                  name="skills"
+                  id="backend"
+                  value="Backend"
+                />
+                <label for="backend">Backend</label>
+                <input
+                  type="checkbox"
+                  name="skills"
+                  id="fullstack"
+                  value="Full-stack"
+                />
+                <label for="fullstack">Full-stack</label>
+              </td>
+            </tr>
+            <!-- Message -->
+            <tr>
+              <td><strong>Message </strong></td>
+              <td>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="6"
+                  cols="50"
+                ></textarea>
+              </td>
+            </tr>
+          </table>
+          <button type="submit">Submit</button>
+          <!-- Name -->
+          <!-- <div>
+            <label for="name"><strong>Name : </strong></label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <br /> -->
+          <!-- Email -->
+          <!-- <div>
+            <label for="email"><strong>Email : </strong></label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <br /> -->
+          <!-- Interested in -->
+          <!-- <div>
+            <label><strong>Interested in : </strong></label>
+            <input
+              type="radio"
+              name="interest"
+              id="fulltime"
+              value="Full-time"
+            />
+            <label for="fulltime">Full-time</label>
+            <input
+              type="radio"
+              name="interest"
+              id="parttime"
+              value="Part-time"
+            />
+            <label for="parttime">Part-time</label>
+            <input
+              type="radio"
+              name="interest"
+              id="freelance"
+              value="Freelance"
+            />
+            <label for="freelance">Freelance</label>
+          </div>
+          <br /> -->
+          <!-- Skills Required -->
+          <!-- <div>
+            <label><strong>Skills Required : </strong></label>
+            <input
+              type="checkbox"
+              name="skills"
+              id="frontend"
+              value="Frontend"
+            />
+            <label for="frontend">Frontend</label>
+            <input type="checkbox" name="skills" id="backend" value="Backend" />
+            <label for="backend">Backend</label>
+            <input
+              type="checkbox"
+              name="skills"
+              id="fullstack"
+              value="Full-stack"
+            />
+            <label for="fullstack">Full-stack</label>
+          </div> 
+          <br /> -->
+          <!-- Message -->
+          <!-- <div>
+            <label for="message"><strong>Message : </strong></label>
+            <textarea name="message" id="message" rows="6" cols="50"></textarea>
+          </div>
+          <br />
+          <button type="submit">Submit</button> -->
+        </form>
+      </section>
+      <br />
+    </main>
+    <!-- Footer -->
+    <footer>
+      <small>&copy; 2024 Shubham Rao. Connect with me on</small>
+      <p>
+        <a href="https://linkedin.com">LinkedIn</a>
+        <a href="https://github.com/">GitHub</a>
+        <a href="https://twitter.com">Twitter</a>
+      </p>
+    </footer>
+  </body>
+</html>
