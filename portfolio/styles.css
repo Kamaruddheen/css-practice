@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-small {
+    font-size: small;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.company {
+    justify-content: space-between;
+}
+
+#contact div label {
+    margin-right: 50px;
+}
+
+button[type="submit"] {
+    margin: 20px 0;
+    padding: 7px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #002980;
+    color: white;
+    outline: none;
+    border: 0;
+}
+
+input {
+    padding: 0.1275rem;
+    margin: 2px;
+}
+
+@media (max-width: 767px) {
+    .company {
+        flex-direction: column;
+        align-items: start;
+    }
+}
